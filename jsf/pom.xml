@@ -4,7 +4,7 @@
    <parent>
       <groupId>org.ocpsoft.prettytime</groupId>
       <artifactId>prettytime-parent</artifactId>
-      <version>5.0.0-SNAPSHOT</version>
+      <version>5.1-JakartaEE</version>
       <relativePath>../pom.xml</relativePath>
    </parent>
 
@@ -18,8 +18,8 @@
          <artifactId>prettytime</artifactId>
       </dependency>
       <dependency>
-         <groupId>javax.faces</groupId>
-         <artifactId>jsf-api</artifactId>
+         <groupId>jakarta.faces</groupId>
+         <artifactId>jakarta.faces-api</artifactId>
          <scope>provided</scope>
       </dependency>
    </dependencies>

@@ -11,10 +11,10 @@
 	<artifactId>prettytime-parent</artifactId>
 
 	<packaging>pom</packaging>
-	<version>5.0.0-SNAPSHOT</version>
+	<version>5.1-JakartaEE</version>
 
 	<name>PrettyTime - Parent</name>
-	<description>Social style time-formatting utilities and web-framework integrations.</description>
+	<description>Social style time-formatting utilities and web-framework integrations. [Jakarta - inofficial fork]</description>
 	<url>http://ocpsoft.org/prettytime/</url>
 
 	<modules>
@@ -22,7 +22,9 @@
 		<module>jsf</module>
 		<module>jstl</module>
 		<module>nlp</module>
+<!--
 		<module>samples</module>
+-->
 	</modules>
 
 	<properties>
@@ -45,15 +47,15 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git://github.com/ocpsoft/prettytime.git</connection>
-		<developerConnection>scm:git:git@github.com:ocpsoft/prettytime.git</developerConnection>
-		<url>http://github.com/ocpsoft/prettytime</url>
+		<connection>scm:git:git://github.com/fbroda/prettytime.git</connection>
+		<developerConnection>scm:git:git@github.com:fbroda/prettytime.git</developerConnection>
+		<url>http://github.com/fbroda/prettytime</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/ocpsoft/prettytime/issues</url>
+		<url>https://github.com/fbroda/prettytime/issues</url>
 	</issueManagement>
 
 	<developers>
@@ -85,14 +87,14 @@
 			</dependency>
 			<dependency>
 				<groupId>org.ocpsoft.prettytime</groupId>
-				<artifactId>prettytime-integration-jsf</artifactId>
+				<artifactId>prettytime-integration-faces</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 			<dependency>
-				<groupId>javax.faces</groupId>
-				<artifactId>jsf-api</artifactId>
-				<version>1.2_02</version>
+				<groupId>jakarta.faces</groupId>
+				<artifactId>jakarta.faces-api</artifactId>
+				<version>3.0.0</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
